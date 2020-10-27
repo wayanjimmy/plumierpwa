@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    //required
+    "target": "es2017",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "strictPropertyInitialization": false,
+    //optional
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist"
+  }
+}

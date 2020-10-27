@@ -1,0 +1,18 @@
+{
+  "name": "plumierpwa",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "start": "yarn --cwd backend start",
+    "build": "yarn --cwd backend build && yarn --cwd frontend build",
+    "heroku-postbuild": "yarn build"
+  }
+}
